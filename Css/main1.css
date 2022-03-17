@@ -1,0 +1,93 @@
+/* Nav Bar */
+
+nav {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+  height: 80vh;
+  border: solid black 2px;
+  background-image: url(seattle.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+a {
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 6px 6px 6px black;
+  position: relative;
+  flex-wrap: wrap;
+}
+i {
+  margin-top: 15%;
+  margin-right: 0.5%;
+}
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+  margin-left: 30%;
+  margin-top: 15%;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: white;
+  transform-origin: 0 50%;
+  flex-wrap: wrap;
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+  text-shadow: 5px 5px 5px black;
+  flex-wrap: wrap;
+}
+/* About me Section */
+
+.w3-third {
+  border-right: solid black;
+  height: 60vh;
+  margin-top: 3%;
+}
+.header1 {
+  margin-top: 5%;
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: black solid;
+  width: 100%;
+}
+.mySlides {
+  height: 60vh;
+}
+.header2 {
+  margin-top: 5%;
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: black solid;
+  width: 100%;
+}
+/* Footer */
+.footer {
+  border: solid;
+}
