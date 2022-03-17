@@ -4,7 +4,7 @@ nav {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
   height: 80vh;
   border: solid black 2px;
-  background-image: url(seattle.jpeg);
+  background-image: url(../Css/seattle.jpeg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: relative;
