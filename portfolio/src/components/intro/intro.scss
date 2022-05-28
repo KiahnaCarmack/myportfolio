@@ -1,0 +1,112 @@
+.intro{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(184, 157, 157);
+}
+.photo{
+    display: flex;
+    margin-top: 6%;
+    background-color:rgb(184, 157, 157) ;
+    border-radius: 100%;
+}
+
+   
+
+
+.introwrapper{
+    margin: auto;
+    width: 60%;
+    height: 50vh;
+    padding: 5px;
+    margin-left: 30%;
+    margin-top: -30%;
+    text-align: center;
+    font-size: 2rem;  
+}
+
+.itypetext{
+    font-weight: bold;
+    color:white;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    body{
+        font-size: 1rem;
+        flex-direction: column;
+        width: 100%;
+      
+  }
+  .photo{
+      width: 100%;
+      margin-top: 10%;
+    
+  }
+  header,
+  .itype,
+  .introwrapper{
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 1%;    
+
+}
+.introwrapper{
+    text-align: center;
+    width: 50%;
+    
+}
+
+}
+@media only screen and (max-width: 400px) {
+    body{
+        font-size: 1rem;
+        flex-direction: column;
+        width: 100%;
+      
+  }
+  .photo{
+      width: 100%;
+      margin-top: 50%;
+    
+  }
+  header,
+  .itype,
+  .introwrapper{
+    font-size: 12px;
+    width: 100%;
+    margin-top: 1%;    
+
+}
+.introwrapper{
+    text-align: center;
+    width: 50%;
+    
+}
+
+}
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 1rem;
+        flex-direction: column;
+        width: 100%;
+      
+  }
+  .photo{
+      width: 100%;
+    
+  }
+  header,
+  .itype,
+  .introwrapper{
+    font-size: 12px;
+    width: 100%;
+    margin-top: 1%;    
+
+}
+.introwrapper{
+    text-align: center;
+    width: 50%;
+    
+}
+
+}
